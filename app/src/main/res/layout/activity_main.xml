@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Button"
+        android:id="@+id/btnFirst"
+        android:background="#2196F3"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSecond"
+        android:text="Second Button"
+        android:layout_toRightOf="@id/btnFirst"
+        android:background="#CDDC39"
+        />
+
+    <Button
+        android:text="Third Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnThird"
+        android:layout_toRightOf="@id/btnSecond"
+        android:background="#8BC34A"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fourth Button"
+        android:id="@+id/btnFourth"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btnThird"
+        android:background="#84FFFF"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFifth"
+        android:text="Fifth Button"
+        android:layout_below="@id/btnThird"
+        android:layout_toLeftOf="@id/btnFourth"
+        android:background="#FFFF8D"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSizth"
+        android:text="Sixth Button"
+        android:layout_below="@id/btnThird"
+        android:layout_toLeftOf="@id/btnFifth"
+        android:background="#CCFF90"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSeven"
+        android:text="SEVENTH BUTTON"
+        android:layout_below="@id/btnFourth"
+        android:layout_centerHorizontal="true"
+        android:background="#F57F17"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEight"
+        android:text="EIGHTH BUTTON"
+        android:layout_centerVertical="true"
+        android:background="#FFB300"
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNine"
+        android:text="NINTH BUTTON"
+        android:layout_centerInParent="true"
+        android:background="#FD81D4"
+        />
+
+
+</RelativeLayout>
